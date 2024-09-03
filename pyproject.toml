@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "micropython-dev"
+version = "0.1.0"
+description = "MicroPython dev environment"
+authors = ["Andrew Ridyard <ridyard12@gmail.com>"]
+license = "GPL-3.0 license"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+rshell = {git = "https://github.com/AndyRids/rshell.git", rev = "fix-wsl-autoconnect"}
+micropython-rp2-pico-w-stubs = "^1.20.0.post5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

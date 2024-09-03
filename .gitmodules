@@ -1,0 +1,4 @@
+[submodule ".venv/src/rshell"]
+	path = .venv/src/rshell
+	url = https://github.com/AndyRids/rshell.git
+	branch = fix-wsl-autoconnect
